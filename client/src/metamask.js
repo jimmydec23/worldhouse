@@ -21,7 +21,7 @@ class Metamask {
         return new Promise((resolve, reject) => {
             let account = null
             if (!this.isInstall()) resolve(account)
-            app.contractMgr.web3.eth.getAccounts()
+            app.contractMgr.web3.eth.requestAccounts()
                 .then(accounts => {
                     if (accounts.length != 0)
                         account = accounts[0]
