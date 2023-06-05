@@ -37,5 +37,6 @@ yarn start
 ```
 * open webpage: http://localhost
 
-## Web3 API doc
-Read web3 api doc here: [web3-eth](https://web3js.readthedocs.io/en/v1.4.0/web3-eth.html)
+## web3 and contract apis
+* [web3js](https://web3js.readthedocs.io/en/v1.4.0/web3-eth.html)
+* [truffle contract](https://github.com/trufflesuite/truffle/tree/master/packages/contract)
