@@ -42,7 +42,8 @@ const MacroNetworkType = {
     Ropsten: 3,
     Rinkeby: 4,
     Kovan: 42,
-    Private: 999,
+    //Private: 999,
+    Private: 1337,
 }
 
 const EffectState = {

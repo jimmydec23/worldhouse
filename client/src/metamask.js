@@ -51,11 +51,11 @@ class Metamask {
                 })
                 .then(() => {
                     if (res.unlockCheck) {
-                        return app.contractMgr.getNetworkId()
+                        return app.contractMgr.getChainId()
                     }
                 })
                 .then(networkId => {
-                    if (networkId == MacroNetworkType.Rinkeby) {
+                    if (networkId == MacroNetworkType.Private) {
                         res.networkCheck = true
                     }
                 })

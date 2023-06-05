@@ -1,5 +1,5 @@
 import React from 'react'
-import { MacroEventType, MacroViewType } from '../macro'
+import { MacroEventType, MacroViewType, MacroNetworkType } from '../macro'
 import { PopUpTop } from './page-widgets'
 
 class PageGuide extends React.Component {
@@ -64,9 +64,11 @@ class PageGuide extends React.Component {
                         <div className='guide-item-left'>
                             <div className='mainnet-guide'>
                                 <div className='circle'></div>
-                                <p>Rinkeby Network</p>
+                                {/*<p>Rinkeby Network</p>*/}
+                                <p>Private Network</p>
                             </div>
-                            <p>Step 4: Switch to Rinkeby Netword</p>
+                            {/*<p>Step 4: Switch to Rinkeby Network</p>*/}
+                            <p>Step 4: Switch to Private Network</p>
                         </div>
                         <div className='guide-item-right'>
                             {yesno(this.state.networkCheck)}

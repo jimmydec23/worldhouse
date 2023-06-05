@@ -21,6 +21,10 @@ class ContractMgr {
     getNetworkId() {
         return this.web3.eth.net.getId()
     }
+    
+    getChainId() {
+        return this.web3.eth.getChainId()
+    }
 
     getContractInstance() {
         return this.worldHouse.init(this.provider)

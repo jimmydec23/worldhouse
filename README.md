@@ -1,4 +1,5 @@
-# worldhouse
+# World House
+A solidity game about builing house on ethereum.
 
 ## development env
 * node: v10.24.1
@@ -6,6 +7,15 @@
 * Metamask browser extension
 
 ## development
+* start truffle blockchain
+```
+# start truffle node:
+truffle develop
+# deploy contract, on truffle console, run:
+migrate
+```
+* connect private network on matamask, with chain id 1337, rpc url http://127.0.0.1:9545
+
 * start dev server:
   ```
   yarn dev
@@ -26,3 +36,6 @@ yarn cbuild
 yarn start
 ```
 * open webpage: http://localhost
+
+## Web3 API doc
+Read web3 api doc here: [web3-eth](https://web3js.readthedocs.io/en/v1.4.0/web3-eth.html)
