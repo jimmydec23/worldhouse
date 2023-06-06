@@ -8,12 +8,12 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node server/app.js",
+    "server": "node server/app.js",
     "dev": "nodemon server/app.js -w server",
-    "cdev": "parcel watch ./client/public/index.html",
-    "cres": "cp -r ./client/public/images ./dist/",
-    "cbuild": "npm run cclear && parcel build ./client/public/index.html && npm run cres",
-    "cclear": "rm -rf .cache dist"
+    "watch": "parcel watch ./client/public/index.html",
+    "res": "cp -r ./client/public/images ./dist/",
+    "build": "npm run clean && parcel build ./client/public/index.html && npm run res",
+    "clean": "rm -rf .cache dist"
   },
   "keywords": [],
   "author": "",
