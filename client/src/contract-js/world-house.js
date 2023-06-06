@@ -15,6 +15,7 @@ class WorldHouse {
             worldHouse.deployed()
                 .then(instance => {
                     this.instance = instance
+                    log("Contract address:", instance.address)
                 })
                 .then(resolve)
                 .catch(err => logError(err))

@@ -43,7 +43,7 @@ const MacroNetworkType = {
     Rinkeby: 4,
     Kovan: 42,
     //Private: 999,
-    Private: 1337,
+    Private: 5777,
 }
 
 const EffectState = {

@@ -52,7 +52,7 @@ class Metamask {
                 })
                 .then(() => {
                     if (res.unlockCheck) {
-                        return app.contractMgr.getChainId()
+                        return app.contractMgr.getNetworkId()
                     }
                 })
                 .then(networkId => {
