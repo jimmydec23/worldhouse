@@ -23,6 +23,7 @@ class Metamask {
             if (!this.isInstall()) resolve(account)
             app.contractMgr.web3.eth.requestAccounts()
                 .then(accounts => {
+                    // this is the metamask selected account
                     if (accounts.length != 0)
                         account = accounts[0]
                     resolve(account)
