@@ -1,6 +1,7 @@
-import contract from 'truffle-contract'
+//import contract from '@truffle-contract'
 import WorldHouseArtifact from '../../../build/contracts/WorldHouse.json'
 import { log, logError } from '../utils'
+const contract = require("@truffle/contract");
 
 class WorldHouse {
     constructor() {

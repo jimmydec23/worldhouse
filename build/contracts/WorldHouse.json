@@ -45,7 +45,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -64,7 +65,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -88,7 +90,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -111,7 +114,8 @@
       "name": "buyHouse",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -134,7 +138,8 @@
       "name": "buyEnv",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -158,7 +163,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -189,7 +195,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -202,7 +209,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -215,7 +223,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -16111,11 +16120,12 @@
       "events": {},
       "links": {},
       "address": "0xca14b0baDBcC2aA4b0587FA4065E078AE9F1E8da",
-      "transactionHash": "0x01e6d39b5f82b002faaa57dbdfbab0d9394fe1673acc7a27b7d2b26772793933"
+      "transactionHash": "0xac05f7f5b5b554a85f51a19e5560191dc41503e20b619aba164c79485df68733"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-06-05T04:02:41.477Z",
+  "updatedAt": "2023-06-06T03:13:02.931Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
