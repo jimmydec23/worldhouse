@@ -8,8 +8,9 @@ const log = (...args) => {
 }
 
 const logError = (err) => {
-    if (LogSwitch)
-        console.log(err.name, err.message, err.stack)
+    if (LogSwitch){
+        console.error(err.stack)
+    }
 }
 
 const notice = (msg, callback = null) => {

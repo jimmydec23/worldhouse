@@ -12,6 +12,8 @@ class WorldHouse {
         return new Promise((resolve, reject) => {
             const worldHouse = contract(WorldHouseArtifact)
             worldHouse.setProvider(provider)
+            // deployed(): Create an instance of MyContract that represents 
+            // the default address managed by MyContract.
             worldHouse.deployed()
                 .then(instance => {
                     this.instance = instance

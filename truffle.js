@@ -6,6 +6,7 @@ module.exports = {
       port: 9545,
       network_id: 5777,
     },
+    // the default network (if no --network option is provided)
     development: {
       host: "127.0.0.1",
       port: 8545,

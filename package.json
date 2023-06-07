@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "server": "node server/app.js",
+    "serve": "node server/app.js",
     "dev": "nodemon server/app.js -w server",
     "watch": "parcel watch ./client/public/index.html",
     "res": "cp -r ./client/public/images ./dist/",

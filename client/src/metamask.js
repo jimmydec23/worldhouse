@@ -26,6 +26,7 @@ class Metamask {
                     // this is the metamask selected account
                     if (accounts.length != 0)
                         account = accounts[0]
+                    log("selected account", account)
                     resolve(account)
                 })
                 .catch(err => logError(err))
