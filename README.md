@@ -1,6 +1,8 @@
 # World House
 A solidity game of builing house on ethereum.
 
+![game](doc/s1.gif)
+
 ## development env
 * node: v16.20.0
 * truffle
