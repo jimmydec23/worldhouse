@@ -1,9 +1,12 @@
 const WorldHouse = artifacts.require("WorldHouse");
 
 contract("WorldHouse", () => {
-    it("Should handle right", async() => {
+    it("Should handle house data right", async() => {
         const ins = await WorldHouse.deployed();
-        const {row, col, id, used}= await ins.getHouse();
-        assert.equal(used, 0, "house should not be used");
+        const {row, col, houseId, used}= await ins.getHouse();
+        assert.equal(row, 0, "should be an empty house");
+        assert.equal(col, 0, "should be an empty house");
+        assert.equal(houseId, 0, "should be an empty house");
+        assert.equal(used, 0, "should be an empty house");
     })
 })
